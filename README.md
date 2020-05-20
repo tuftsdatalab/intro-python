@@ -15,6 +15,7 @@ Questions: [Data Lab Python Exchange on Piazza](https://piazza.com/tufts/other/d
 Consultations: [datalab-support@elist.tufts.edu](mailto:datalab-support@elist.tufts.edu)  
 Feedback: [uku-kaspar.uustalu@tufts.edu](mailto:uku-kaspar.uustalu@tufts.edu)
 
+---
 This is a hands-on workshop designed to get you started with the programming language Python and the Google Colab notebook environment. We will provide a whirlwind overview of what Python is, why you might want to use it, and how to do so. Then we'll dive into programming basics and discuss:
 
 - Basic **command-line syntax** and using Python in the **terminal**
