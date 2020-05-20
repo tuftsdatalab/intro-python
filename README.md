@@ -2,12 +2,11 @@
 [![Download Notebook](https://tuftsdatalab.github.io/assets/badges/jupyter.svg)](https://cdn.jsdelivr.net/gh/tuftsdatalab/intro-python@master/intro-python.ipynb)&nbsp;
 [![Download Zip](https://tuftsdatalab.github.io/assets/badges/download.svg)](https://github.com/tuftsdatalab/intro-python/archive/master.zip)&nbsp;
 ![total size](https://img.shields.io/github/repo-size/tuftsdatalab/intro-python?label=total%20size)&nbsp;
-![last updated](https://img.shields.io/github/last-commit/tuftsdatalab/intro-python?label=last%20updated)\
+![last updated](https://img.shields.io/github/last-commit/tuftsdatalab/intro-python?label=last%20updated)&nbsp;
 [![datalab.tufts.edu](https://tuftsdatalab.github.io/assets/badges/datalab.svg)](https://sites.tufts.edu/datalab)&nbsp;
 [![@TuftsDataLab](https://tuftsdatalab.github.io/assets/badges/twitter.svg)](https://twitter.com/intent/follow?screen_name=tuftsdatalab)
 
 # A Gentle Introduction to Python
-
 **A Tufts University Data Lab Wokrshop**  
 Written by Uku-Kaspar Uustalu
 
@@ -16,7 +15,6 @@ Questions: [Data Lab Python Exchange on Piazza](https://piazza.com/tufts/other/d
 Consultations: [datalab-support@elist.tufts.edu](mailto:datalab-support@elist.tufts.edu)  
 Feedback: [uku-kaspar.uustalu@tufts.edu](mailto:uku-kaspar.uustalu@tufts.edu)
 
----
 This is a hands-on workshop designed to get you started with the programming language Python and the Google Colab notebook environment. We will provide a whirlwind overview of what Python is, why you might want to use it, and how to do so. Then we'll dive into programming basics and discuss:
 
 - Basic **command-line syntax** and using Python in the **terminal**
