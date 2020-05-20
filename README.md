@@ -8,7 +8,6 @@
 
 # A Gentle Introduction to Python
 
----
 **A Tufts University Data Lab Wokrshop**  
 Written by Uku-Kaspar Uustalu
 
