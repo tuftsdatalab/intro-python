@@ -1,5 +1,5 @@
 [![Open in Colab](https://tuftsdatalab.github.io/assets/badges/colab.svg)](https://colab.research.google.com/github/tuftsdatalab/intro-python/blob/master/intro-python.ipynb)&nbsp;
-[![Download Notebook](https://tuftsdatalab.github.io/assets/badges/jupyter.svg)](https://cdn.jsdelivr.net/gh/tuftsdatalab/intro-python@master/intro-python.ipynb)&nbsp;
+[![Download Notebook](https://tuftsdatalab.github.io/assets/badges/jupyter.svg)](https://cdn.jsdelivr.net/gh/tuftsdatalab/intro-python/intro-python.ipynb)&nbsp;
 [![Download Zip](https://tuftsdatalab.github.io/assets/badges/download.svg)](https://github.com/tuftsdatalab/intro-python/archive/master.zip)&nbsp;
 ![total size](https://img.shields.io/github/repo-size/tuftsdatalab/intro-python?label=total%20size)&nbsp;
 ![last updated](https://img.shields.io/github/last-commit/tuftsdatalab/intro-python?label=last%20updated)
