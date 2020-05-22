@@ -2,13 +2,16 @@
 [![Download Notebook](https://tuftsdatalab.github.io/assets/badges/jupyter.svg)](https://cdn.jsdelivr.net/gh/tuftsdatalab/intro-python@master/intro-python.ipynb)&nbsp;
 [![Download Zip](https://tuftsdatalab.github.io/assets/badges/download.svg)](https://github.com/tuftsdatalab/intro-python/archive/master.zip)&nbsp;
 ![total size](https://img.shields.io/github/repo-size/tuftsdatalab/intro-python?label=total%20size)&nbsp;
-![last updated](https://img.shields.io/github/last-commit/tuftsdatalab/intro-python?label=last%20updated)&nbsp;
+![last updated](https://img.shields.io/github/last-commit/tuftsdatalab/intro-python?label=last%20updated)
 [![datalab.tufts.edu](https://tuftsdatalab.github.io/assets/badges/datalab.svg)](https://sites.tufts.edu/datalab)&nbsp;
 [![@TuftsDataLab](https://tuftsdatalab.github.io/assets/badges/twitter.svg)](https://twitter.com/intent/follow?screen_name=tuftsdatalab)
 
 # A Gentle Introduction to Python
 **A Tufts University Data Lab Wokrshop**  
 Written by Uku-Kaspar Uustalu
+
+[![datalab.tufts.edu](https://tuftsdatalab.github.io/assets/badges/datalab.svg)](https://sites.tufts.edu/datalab)&nbsp;
+[![@TuftsDataLab](https://tuftsdatalab.github.io/assets/badges/twitter.svg)](https://twitter.com/intent/follow?screen_name=tuftsdatalab)
 
 Python resoucres: [go.tufts.edu/python](https://sites.tufts.edu/datalab/python/)  
 Questions: [Data Lab Python Exchange on Piazza](https://piazza.com/tufts/other/datalabpy/)  
