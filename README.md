@@ -3,8 +3,6 @@
 [![Download Zip](https://tuftsdatalab.github.io/assets/badges/download.svg)](https://github.com/tuftsdatalab/intro-python/archive/master.zip)&nbsp;
 ![total size](https://img.shields.io/github/repo-size/tuftsdatalab/intro-python?label=total%20size)&nbsp;
 ![last updated](https://img.shields.io/github/last-commit/tuftsdatalab/intro-python?label=last%20updated)
-[![datalab.tufts.edu](https://tuftsdatalab.github.io/assets/badges/datalab.svg)](https://sites.tufts.edu/datalab)&nbsp;
-[![@TuftsDataLab](https://tuftsdatalab.github.io/assets/badges/twitter.svg)](https://twitter.com/intent/follow?screen_name=tuftsdatalab)
 
 # A Gentle Introduction to Python
 **A Tufts University Data Lab Wokrshop**  
