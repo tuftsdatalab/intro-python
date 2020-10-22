@@ -43,7 +43,7 @@ If you have Anaconda installed, follow the instructions below to launch a locall
 ## Part 2: Using an Interactive Notebook Environment {#part-2}
 [![Launch Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/tuftsdatalab/intro-python/master?urlpath=lab){:target="_blank"}&nbsp;
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tuftsdatalab/intro-python/blob/master/intro-python.ipynb){:target="_blank"}&nbsp;
-[![Download Notebook](https://tuftsdatalab.github.io/assets/badges/jupyter.svg)](https://cdn.jsdelivr.net/gh/tuftsdatalab/intro-python/intro-python.ipynb)
+[![Download Notebook](https://tuftsdatalab.github.io/assets/badges/jupyter.svg)](https://cdn.jsdelivr.net/gh/tuftsdatalab/intro-python@master/intro-python.ipynb)
 
 Follow the instructions below to launch an online version of the [JupyterLab](https://jupyterlab.readthedocs.io/en/stable/) interface pre-configured for this workshop.
 1. Click on the [**Launch Binder**](https://mybinder.org/v2/gh/tuftsdatalab/intro-python/master?urlpath=lab){:target="_blank"} button above.
@@ -55,7 +55,7 @@ Alternatively, you may click on the [**Open in Colab**](https://colab.research.g
 
 If you have Anaconda installed, follow the instructions below to launch a locally hosted JupyterLab environment.
 
-1. Click on the [**Download Notebook**](https://cdn.jsdelivr.net/gh/tuftsdatalab/intro-python/intro-python.ipynb) button above to download the workshop notebook. It is reccomended you create a designated folder for this workshop and move the notebook there.
+1. Click on the [**Download Notebook**](https://cdn.jsdelivr.net/gh/tuftsdatalab/intro-python@master/intro-python.ipynb) button above to download the workshop notebook. It is recommended you create a designated folder for this workshop and move the notebook there.
 2. Launch JupyterLab either from the **command line** or via **Anaconda Navigator**.
     - From the **command line**:
         1. Launch **Terminal** (*macOS/Linux*) or the **Anaconda PowerShell Prompt** (*Windows*).
