@@ -1,5 +1,5 @@
 ---
-title: Introduction to Programming with Python
+title: "Introduction to Programming with Python"
 ---
 
 [![View on Github](https://tuftsdatalab.github.io/assets/badges/github.svg)](https://github.com/tuftsdatalab/intro-python)&nbsp;
