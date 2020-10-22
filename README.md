@@ -1,4 +1,6 @@
-#  Introduction to Programming with Python
+---
+title: Introduction to Programming with Python
+---
 
 [![View on Github](https://tuftsdatalab.github.io/assets/badges/github.svg)](https://github.com/tuftsdatalab/intro-python)&nbsp;
 [![Download Zip](https://tuftsdatalab.github.io/assets/badges/download.svg)](https://github.com/tuftsdatalab/intro-python/archive/master.zip)&nbsp;
