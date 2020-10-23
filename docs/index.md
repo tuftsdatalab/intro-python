@@ -30,7 +30,9 @@ Note that this workshop is intended for use in a live instructor-guided session.
 ---
 ## Part 1: Working with Python on the Command Line {#part-1}
 
-<a href="https://console.python.org/python-dot-org-console/console_frame/" target="_blank" onClick="window.open('https://console.python.org/python-dot-org-console/console_frame/','pagename','resizable,height=315,width=745'); return false;">**Click here**</a> to launch an online version of the command-line based Python interpreter.
+[![Launch Python Interpreter](https://tuftsdatalab.github.io/assets/badges/python.svg)](https://console.python.org/python-dot-org-console/){:target="_blank" onClick="window.open('https://console.python.org/python-dot-org-console/','_blank','height=300,width=745'); return false;"}
+
+Click on the [**Launch Python Interpreter**](https://console.python.org/python-dot-org-console/){:target="_blank" onClick="window.open('https://console.python.org/python-dot-org-console/','_blank','height=300,width=745'); return false;"} button above to launch an online version of the command-line based Python interpreter. If that does not work, use the online interpreter available on the official Python website: [python.org/shell](https://www.python.org/shell/){:target="_blank"}
 
 If you have Anaconda installed, follow the instructions below to launch a locally hosted Python interpreter.
 
