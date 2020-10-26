@@ -1,7 +1,7 @@
-[![View on Github](https://tuftsdatalab.github.io/assets/badges/github.svg)](https://github.com/tuftsdatalab/intro-python){:target="_blank"}&nbsp;
+[![View on Github](https://tuftsdatalab.github.io/badges/github.svg)](https://github.com/tuftsdatalab/intro-python){:target="_blank"}&nbsp;
 ![last updated](https://img.shields.io/github/last-commit/tuftsdatalab/intro-python?label=last%20updated)&nbsp;
-[![datalab.tufts.edu](https://tuftsdatalab.github.io/assets/badges/datalab.svg)](https://sites.tufts.edu/datalab){:target="_blank"}&nbsp;
-[![@TuftsDataLab](https://tuftsdatalab.github.io/assets/badges/twitter.svg)](https://twitter.com/intent/follow?screen_name=tuftsdatalab){:target="_blank"}
+[![datalab.tufts.edu](https://tuftsdatalab.github.io/badges/datalab.svg)](https://sites.tufts.edu/datalab){:target="_blank"}&nbsp;
+[![@TuftsDataLab](https://tuftsdatalab.github.io/badges/twitter.svg)](https://twitter.com/intent/follow?screen_name=tuftsdatalab){:target="_blank"}
 
 **A Tufts University Data Lab Workshop**\
 Written by Uku-Kaspar Uustalu
@@ -27,7 +27,7 @@ Note that this workshop is intended for use in a live instructor-guided session.
 ---
 ## Part 1: Working with Python on the Command Line {#part-1}
 
-[![Launch Python Interpreter](https://tuftsdatalab.github.io/assets/badges/python.svg)](https://console.python.org/python-dot-org-console/){:target="_blank" onClick="window.open('https://console.python.org/python-dot-org-console/','_blank','height=300,width=745'); return false;"}
+[![Launch Python Interpreter](https://tuftsdatalab.github.io/badges/python.svg)](https://console.python.org/python-dot-org-console/){:target="_blank" onClick="window.open('https://console.python.org/python-dot-org-console/','_blank','height=300,width=745'); return false;"}
 
 Click on the [**Launch Python Interpreter**](https://console.python.org/python-dot-org-console/){:target="_blank" onClick="window.open('https://console.python.org/python-dot-org-console/','_blank','height=300,width=745'); return false;"} button above to launch an online version of the command-line based interactive Python interpreter. If that does not work in your browser, use the online interpreter available on the official Python website: [python.org/shell](https://www.python.org/shell/){:target="_blank"}
 
@@ -42,7 +42,7 @@ If you have Anaconda installed, follow the instructions below to launch a locall
 ## Part 2: Using an Interactive Notebook Environment {#part-2}
 [![Launch Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/tuftsdatalab/intro-python/master?urlpath=lab){:target="_blank"}&nbsp;
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tuftsdatalab/intro-python/blob/master/intro-python.ipynb){:target="_blank"}&nbsp;
-[![Download Notebook](https://tuftsdatalab.github.io/assets/badges/jupyter.svg)](https://cdn.jsdelivr.net/gh/tuftsdatalab/intro-python@master/intro-python.ipynb)
+[![Download Notebook](https://tuftsdatalab.github.io/badges/jupyter.svg)](https://cdn.jsdelivr.net/gh/tuftsdatalab/intro-python@master/intro-python.ipynb)
 
 Follow the instructions below to launch an online version of the [JupyterLab](https://jupyterlab.readthedocs.io/en/stable/){:target="_blank"} interface pre-configured for this workshop.
 1. Click on the [**Launch Binder**](https://mybinder.org/v2/gh/tuftsdatalab/intro-python/master?urlpath=lab){:target="_blank"} button above.
