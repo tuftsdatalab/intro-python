@@ -1,7 +1,7 @@
-[![datalab.tufts.edu](https://tuftsdatalab.github.io/assets/badges/datalab.svg)](https://sites.tufts.edu/datalab){:target="_blank"}&nbsp;
-[![@TuftsDataLab](https://tuftsdatalab.github.io/assets/badges/twitter.svg)](https://twitter.com/intent/follow?screen_name=tuftsdatalab){:target="_blank"}&nbsp;
 [![View on Github](https://tuftsdatalab.github.io/assets/badges/github.svg)](https://github.com/tuftsdatalab/intro-python){:target="_blank"}&nbsp;
-![last updated](https://img.shields.io/github/last-commit/tuftsdatalab/intro-python?label=last%20updated)
+![last updated](https://img.shields.io/github/last-commit/tuftsdatalab/intro-python?label=last%20updated)&nbsp;
+[![datalab.tufts.edu](https://tuftsdatalab.github.io/assets/badges/datalab.svg)](https://sites.tufts.edu/datalab){:target="_blank"}&nbsp;
+[![@TuftsDataLab](https://tuftsdatalab.github.io/assets/badges/twitter.svg)](https://twitter.com/intent/follow?screen_name=tuftsdatalab){:target="_blank"}
 
 **A Tufts University Data Lab Workshop**\
 Written by Uku-Kaspar Uustalu
