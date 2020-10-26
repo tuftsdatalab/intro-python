@@ -1,13 +1,10 @@
+[![datalab.tufts.edu](https://tuftsdatalab.github.io/assets/badges/datalab.svg)](https://sites.tufts.edu/datalab){:target="_blank"}&nbsp;
+[![@TuftsDataLab](https://tuftsdatalab.github.io/assets/badges/twitter.svg)](https://twitter.com/intent/follow?screen_name=tuftsdatalab){:target="_blank"}&nbsp;
 [![View on Github](https://tuftsdatalab.github.io/assets/badges/github.svg)](https://github.com/tuftsdatalab/intro-python){:target="_blank"}&nbsp;
-[![Download Zip](https://tuftsdatalab.github.io/assets/badges/download.svg)](https://github.com/tuftsdatalab/intro-python/archive/master.zip)&nbsp;
-![total size](https://img.shields.io/github/repo-size/tuftsdatalab/intro-python?label=total%20size)&nbsp;
 ![last updated](https://img.shields.io/github/last-commit/tuftsdatalab/intro-python?label=last%20updated)
 
 **A Tufts University Data Lab Workshop**\
 Written by Uku-Kaspar Uustalu
-
-[![datalab.tufts.edu](https://tuftsdatalab.github.io/assets/badges/datalab.svg)](https://sites.tufts.edu/datalab){:target="_blank"}&nbsp;
-[![@TuftsDataLab](https://tuftsdatalab.github.io/assets/badges/twitter.svg)](https://twitter.com/intent/follow?screen_name=tuftsdatalab){:target="_blank"}
 
 Python resources: [go.tufts.edu/python](https://sites.tufts.edu/datalab/python/){:target="_blank"}\
 Questions: <datalab-support@elist.tufts.edu>\
@@ -22,7 +19,7 @@ This is a hands-on workshop designed to introduce you to the wonderful world of 
 Note that this workshop is intended for use in a live instructor-guided session. However, the interactive notebook included in [Part 2](#part-2) is also suitable for self-guided study. Please check the [Data Lab workshop schedule](https://sites.tufts.edu/datalab/workshops/){:target="_blank"} for upcoming live offerings of this workshop.
 
 ---
-## Workshop Schedule
+## Workshop Agenda
 
 1. [Working with Python on the Command Line](#part-1)
 2. [Using an Interactive Notebook Environment](#part-2)
