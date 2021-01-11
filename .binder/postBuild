@@ -1,5 +1,0 @@
-#!/bin/bash
-jupyter labextension install @jupyterlab/toc --no-build
-jupyter labextension install jupyterlab-topbar-extension --no-build
-jupyter labextension install jupyterlab-theme-toggle --no-build
-jupyter lab build --dev-build=False --minimize=False
