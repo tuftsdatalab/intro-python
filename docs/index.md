@@ -70,11 +70,11 @@ If you have Anaconda/Miniconda installed, you can launch a locally hosted Python
 ## Part 2: Using an Interactive Notebook Environment {#part-2}
 
 ### Using Binder (virtual JupyterLab) to Run the Notebook {#binder}
-[![Launch Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/tuftsdatalab/intro-python/master?urlpath=lab/tree/intro-numpy.ipynb){:target="_blank"}&nbsp;
+[![Launch Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/tuftsdatalab/intro-python/master?urlpath=lab/tree/intro-python.ipynb){:target="_blank"}&nbsp;
 
 Follow the instructions below to launch an online version of the [JupyterLab](https://jupyterlab.readthedocs.io/en/stable/) interface pre-configured for this workshop.
 
-1. Click on the [**Launch Binder**](https://mybinder.org/v2/gh/tuftsdatalab/intro-python/master?urlpath=lab/tree/intro-numpy.ipynb){:target="_blank"} button above.
+1. Click on the [**Launch Binder**](https://mybinder.org/v2/gh/tuftsdatalab/intro-python/master?urlpath=lab/tree/intro-python.ipynb){:target="_blank"} button above.
 2. A Binder instance will launch in a new tab with the message *Starting Repository*.
 3. Wait patiently and do not close the Binder tab. After a few minutes, a JupyterLab instance will launch.
 4. To open the workshop notebook, *double-click* on **intro-python.ipynb** in the file browser on the left.
