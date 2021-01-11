@@ -1,5 +1,8 @@
+name: intro-python
+channels:
+  - conda-forge
 dependencies:
-  - python
+  - python>=3
+  - jupyterlab>=3
   - numpy
   - matplotlib
-  - nodejs
