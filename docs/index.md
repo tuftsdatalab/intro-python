@@ -1,8 +1,8 @@
-[![Launch Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/tuftsdatalab/intro-python/master?urlpath=lab/tree/intro-python.ipynb){:target="_blank"}&nbsp;
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tuftsdatalab/intro-python/blob/master/intro-python.ipynb){:target="_blank"}&nbsp;
+[![Launch Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/tuftsdatalab/intro-python/main?urlpath=lab/tree/intro-python.ipynb){:target="_blank"}&nbsp;
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tuftsdatalab/intro-python/blob/main/intro-python.ipynb){:target="_blank"}&nbsp;
 [![View on Github](https://tuftsdatalab.github.io/badges/github.svg)](https://github.com/tuftsdatalab/intro-python)&nbsp;
-[![Download Zip](https://tuftsdatalab.github.io/badges/zip.svg)](https://github.com/tuftsdatalab/intro-python/zipball/master)&nbsp;
-[![Download TarGz](https://tuftsdatalab.github.io/badges/tgz.svg)](https://github.com/tuftsdatalab/intro-python/tarball/master)&nbsp;
+[![Download Zip](https://tuftsdatalab.github.io/badges/zip.svg)](https://github.com/tuftsdatalab/intro-python/zipball/main)&nbsp;
+[![Download TarGz](https://tuftsdatalab.github.io/badges/tgz.svg)](https://github.com/tuftsdatalab/intro-python/tarball/main)&nbsp;
 ![download size](https://img.shields.io/github/repo-size/tuftsdatalab/intro-python?label=download%20size)&nbsp;
 ![last updated](https://img.shields.io/github/last-commit/tuftsdatalab/intro-python?label=last%20updated)
 
@@ -61,22 +61,22 @@ If you have Anaconda or Miniconda installed, you can launch a locally hosted Pyt
 ## Part 2: Using an Interactive Notebook Environment {#part-2}
 
 ### Using Binder (virtual JupyterLab) to Run the Notebook (Recommended) {#binder}
-[![Launch Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/tuftsdatalab/intro-python/master?urlpath=lab/tree/intro-python.ipynb){:target="_blank"}&nbsp;
+[![Launch Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/tuftsdatalab/intro-python/main?urlpath=lab/tree/intro-python.ipynb){:target="_blank"}&nbsp;
 
 You can launch an online [Binder](https://mybinder.org/) instance with a [JupyterLab](https://jupyterlab.readthedocs.io/en/stable/) interface pre-configured for this workshop as follows:
 
-1. Click on the [**Launch Binder**](https://mybinder.org/v2/gh/tuftsdatalab/intro-python/master?urlpath=lab/tree/intro-python.ipynb){:target="_blank"} button above.
+1. Click on the [**Launch Binder**](https://mybinder.org/v2/gh/tuftsdatalab/intro-python/main?urlpath=lab/tree/intro-python.ipynb){:target="_blank"} button above.
 2. A Binder instance will launch in a new tab with the message *Starting Repository*.
 3. Wait patiently and do not close the Binder tab. After a few minutes, a JupyterLab instance will launch.
 4. If the workshop notebook does not automatically open, *double-click* on **intro-python.ipynb** in the file browser on the left.
 
 ---
 ### Using Google Colab to Run the Notebook {#colab}
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tuftsdatalab/intro-python/blob/master/intro-python.ipynb){:target="_blank"}&nbsp;
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tuftsdatalab/intro-python/blob/main/intro-python.ipynb){:target="_blank"}&nbsp;
 
 Google account holders can launch the workshop notebook in the [Google Colab](https://colab.research.google.com/) interactive Python notebook environment as follows:
 
-1. Click on the [**Open in Colab**](https://colab.research.google.com/github/tuftsdatalab/intro-python/blob/master/intro-python.ipynb){:target="_blank"} button above. The Google Colab interface will open in a new tab.
+1. Click on the [**Open in Colab**](https://colab.research.google.com/github/tuftsdatalab/intro-python/blob/main/intro-python.ipynb){:target="_blank"} button above. The Google Colab interface will open in a new tab.
 2. If you are not already signed into your Google account, click on *Sign In* in the upper-right corner and sign in with your Google credentials. **You must be signed in with a Google account to be able to run notebooks in Google Colab.**
 3. *Optional:* If you want to retain any changes you make to this notebook, you should save a copy of the notebook to your Google Drive. This can be done by clicking the *Copy to Drive* button or selecting *File > Save a copy in Drive*. The notebook will be saved to the *Colab Notebooks* folder in your Google Drive. Once the saved copy pops up, close the original file and use the copy for the rest of the workshop. Feel free to rename the copy if desired. Any changes you make to your personal copy will automatically be saved.
 
@@ -84,12 +84,12 @@ Google account holders can launch the workshop notebook in the [Google Colab](ht
 
 ---
 ### Running the Notebook Locally on your Computer {#local}
-[![Download Zip](https://tuftsdatalab.github.io/badges/zip.svg)](https://github.com/tuftsdatalab/intro-python/zipball/master)&nbsp;
-[![Download TarGz](https://tuftsdatalab.github.io/badges/tgz.svg)](https://github.com/tuftsdatalab/intro-python/tarball/master)
+[![Download Zip](https://tuftsdatalab.github.io/badges/zip.svg)](https://github.com/tuftsdatalab/intro-python/zipball/main)&nbsp;
+[![Download TarGz](https://tuftsdatalab.github.io/badges/tgz.svg)](https://github.com/tuftsdatalab/intro-python/tarball/main)
 
 If you have Anaconda or Miniconda installed, you can launch the workshop notebook locally as follows:
 
-1. Click on the [**Download Zip**](https://github.com/tuftsdatalab/intro-python/zipball/master) or [**Download TarGz**](https://github.com/tuftsdatalab/intro-python/tarball/master) button above to download an archive containing the workshop materials.
+1. Click on the [**Download Zip**](https://github.com/tuftsdatalab/intro-python/zipball/main) or [**Download TarGz**](https://github.com/tuftsdatalab/intro-python/tarball/main) button above to download an archive containing the workshop materials.
 2. Extract the contents of the downloaded archive to a suitable location and rename the extracted folder if desired.
 3. Launch JupyterLab either from the **command line** or via **Anaconda Navigator**.
     - From the **command line**:
