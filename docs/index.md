@@ -67,12 +67,14 @@ You can launch an online [Binder](https://mybinder.org/) instance with a [Jupyte
 
 1. Click on the [**Launch Binder**](https://mybinder.org/v2/gh/tuftsdatalab/intro-python/master?urlpath=lab/tree/intro-python.ipynb){:target="_blank"} button above.
 2. A Binder instance will launch in a new tab with the message *Starting Repository*.
-3. Wait patiently and do not close the Binder tab. After a few minutes, a JupyterLab instance with the workshop notebook pre-loaded will launch.
+3. Wait patiently and do not close the Binder tab. After a few minutes, a JupyterLab instance will launch.
+4. If the workshop notebook does not automatically open, *double-click* on **intro-python.ipynb** in the file browser on the left.
 
+---
 ### Using Google Colab to Run the Notebook {#colab}
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tuftsdatalab/intro-python/blob/master/intro-python.ipynb){:target="_blank"}&nbsp;
 
-If you have a Google account, you can launch the workshop notebook in the [Google Colab](https://colab.research.google.com/) interactive Python notebook environment. as follows:
+Google account holders can launch the workshop notebook in the [Google Colab](https://colab.research.google.com/) interactive Python notebook environment as follows:
 
 1. Click on the [**Open in Colab**](https://colab.research.google.com/github/tuftsdatalab/intro-python/blob/master/intro-python.ipynb){:target="_blank"} button above. The Google Colab interface will open in a new tab.
 2. If you are not already signed into your Google account, click on *Sign In* in the upper-right corner and sign in with your Google credentials. **You must be signed in with a Google account to be able to run notebooks in Google Colab.**
@@ -80,6 +82,7 @@ If you have a Google account, you can launch the workshop notebook in the [Googl
 
 *You might also see a message warning you that this notebook was not authored by Google and hence might contain malicious code. You can trust Data Lab notebooks, so click __Run Anyway__. But when running other third-party notebooks, you should review the code beforehand.*
 
+---
 ### Running the Notebook Locally on your Computer {#local}
 [![Download Zip](https://tuftsdatalab.github.io/badges/zip.svg)](https://github.com/tuftsdatalab/intro-python/zipball/master)&nbsp;
 [![Download TarGz](https://tuftsdatalab.github.io/badges/tgz.svg)](https://github.com/tuftsdatalab/intro-python/tarball/master)
@@ -94,9 +97,9 @@ If you have Anaconda or Miniconda installed, you can launch the workshop noteboo
             - **Windows**: *Start > Anaconda3 > Anaconda PowerShell Prompt*
             - **macOS**: *Applications > Utilities > Terminal*
         3. *Optional:* If you are using Miniconda or have modified your base Anaconda environment, create and activate a new environment for this workshop using the included **environment.yml** file as follows:
-            1. Using `cd`, navigate to the folder containing the extracted workshop materials.
-            2. Once you are in the correct directory, type `conda env create -f enviornment.yml` and press **Enter/Return** to create the workshop environment.
-            3. After the workshop environment has been created, type `conda activate intro-python` and press **Enter/Return** to activate it.
+            1. Navigate to the folder containing the extracted workshop materials from within the console.
+            2. Create a new environment for the workshop: `conda env create -f environment.yml`
+            3. Activate the workshop environment: `conda activate intro-python`
         2. Type `jupyter lab` and press **Enter/Return** to launch JupyterLab.
     - Using **Anaconda Navigator** (unmodified Anaconda installations only):
         1. Launch Anaconda Navigator via the Start Menu (*Windows*) or from Applications (*macOS*).
