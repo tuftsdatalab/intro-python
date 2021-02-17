@@ -96,11 +96,11 @@ If you have Anaconda or Miniconda installed, you can launch the workshop noteboo
         1. Launch **Terminal** (*macOS/Linux*) or the **Anaconda PowerShell Prompt** (*Windows*).
             - **Windows**: *Start > Anaconda3 > Anaconda PowerShell Prompt*
             - **macOS**: *Applications > Utilities > Terminal*
-        3. *Optional:* If you are using Miniconda or have modified your base Anaconda environment, create and activate a new environment for this workshop using the included **environment.yml** file as follows:
+        2. *Optional:* If you are using Miniconda or have modified your base Anaconda environment, create and activate a new environment for this workshop using the included **environment.yml** file as follows:
             1. Navigate to the folder containing the extracted workshop materials from within the console.
             2. Create a new environment for the workshop: `conda env create -f binder/environment.yml`
             3. Activate the workshop environment: `conda activate intro-python`
-        2. Type `jupyter lab` and press **Enter/Return** to launch JupyterLab.
+        3. Type `jupyter lab` and press **Enter/Return** to launch JupyterLab.
     - Using **Anaconda Navigator** (unmodified Anaconda installations only):
         1. Launch Anaconda Navigator via the Start Menu (*Windows*) or from Applications (*macOS*).
             - **Windows**: *Start > Anaconda3 > Anaconda Navigator*
