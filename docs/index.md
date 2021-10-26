@@ -119,7 +119,7 @@ If you have Anaconda or Mambaforge installed, you can launch a locally hosted Py
 
 [binder-link]: https://mybinder.org/v2/gh/tuftsdatalab/{{ site.repo }}/main?urlpath=lab/tree/{{ site.file }}
 [colab-link]: https://colab.research.google.com/github/tuftsdatalab/{{ site.repo }}/blob/main/{{ site.file }}
-[notebook-link]: https://cdn.jsdelivr.net/gh/tuftsdatalab/{{ site.repo }}@workshop/workshop/{{ site.file }}
+[notebook-link]: https://cdn.jsdelivr.net/gh/tuftsdatalab/{{ site.repo }}@workshop/{{ site.file }}
 [repo-link]: https://github.com/tuftsdatalab/{{ site.repo }}
 [zipball-link]: https://github.com/tuftsdatalab/{{ site.repo }}/zipball/workshop
 [tarball-link]: https://github.com/tuftsdatalab/{{ site.repo }}/tarball/workshop
