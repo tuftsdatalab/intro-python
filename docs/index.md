@@ -48,14 +48,15 @@ This is a hands-on workshop designed to introduce you to the wonderful world of 
 ---
 ## Part 1/2: Working with Python on the Command Line {#part-1}
 
-[![Launch Python Interpreter](../badges/python.svg)]{{ page.condole_popup }}
+[![Launch Python Interpreter](../badges/python.svg)]{{ page.console_popup }}
 
-Click on the [**Launch Python Interpreter**]{{ page.condole_popup }} button above to launch an online version of the command-line based interactive Python interpreter. If that does not work in your browser, use the online interpreter available on the official Python website: [python.org/shell](https://www.python.org/shell/){:target="_blank"}
+Click on the [**Launch Python Interpreter**]{{ page.console_popup }} button above to launch an online version of the command-line based interactive Python interpreter. If that does not work in your browser, use the online interpreter available on the official Python website: [python.org/shell](https://www.python.org/shell/){:target="_blank"}
 
 If you have Anaconda or Mambaforge installed, you can launch a locally hosted Python interpreter as follows:
 
 1. Launch **Terminal** (*macOS/Linux*) or the **Anaconda/Mambaforge Prompt** (*Windows*).
-    - **Windows**: *Start > Anaconda3 > Anaconda Prompt* or *Start > Mambaforge > Mambaforge Prompt*
+    - **Windows (Anaconda)**: *Start > Anaconda3 > Anaconda Prompt*
+    - **Windows (Mambaforge)**: *Start > Mambaforge > Mambaforge Prompt*
     - **macOS**: *Applications > Utilities > Terminal*
 2. Type `python` and press <kbd>Enter</kbd> or <kbd>Return</kbd>.
 
@@ -98,7 +99,7 @@ If you have Anaconda or Mambaforge installed, you can launch a locally hosted Py
 7. Once you are in the correct directory, *double-click* on `{{ site.file }}` in the file browser to open the workshop notebook.
 
 ---
-## Running the Notebook using a Local Mambaforge Installation {#mambaforge}
+### Running the Notebook using a Local Mambaforge Installation {#mambaforge}
 
 {{ page.zipball_button }}&nbsp;
 {{ page.tarball_button }}
@@ -111,7 +112,7 @@ If you have Anaconda or Mambaforge installed, you can launch a locally hosted Py
 4. Navigate to the directory containing the extracted workshop materials from within the console.
 5. Create a new environment for the workshop: `mamba env create --file environment.yml`
 6. Activate the workshop environment: `conda activate {{ site.env }}`
-7. Open the workshop notebook in JupyterLab: `jupyter lab {{ site.file }`}
+7. Open the workshop notebook in JupyterLab: `jupyter lab {{ site.file }}`
 8. JupyterLab will launch in a web browser. (A new tab will be generated if a browser is already open.)
 9. If the workshop notebook does not automatically open, *double-click* on `{{ site.file }}` in the file browser on the left.
 
