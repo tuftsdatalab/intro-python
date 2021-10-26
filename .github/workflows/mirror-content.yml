@@ -1,0 +1,48 @@
+name: mirror-content
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+
+  mirror-to-binder-branch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+      - uses: olivr/copybara-action@v1.2.3
+        with:
+          access_token: ${{ github.token }}
+          ssh_key: ${{ secrets.SSH_KEY }}
+          sot_repo: ${{ github.repository }}
+          sot_branch: main
+          destination_repo: ${{ github.repository }}
+          destination_branch: binder
+          push_include: "binder/** workshop/**"
+          push_move: |
+            binder||.binder
+            workshop||
+          workflow: push
+
+  mirror-to-workshop-branch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+      - uses: olivr/copybara-action@v1.2.3
+        with:
+          access_token: ${{ github.token }}
+          ssh_key: ${{ secrets.SSH_KEY }}
+          sot_repo: ${{ github.repository }}
+          sot_branch: main
+          destination_repo: ${{ github.repository }}
+          destination_branch: workshop
+          push_include: "binder/environment.yml workshop/**"
+          push_move: |
+            binder/environment.yml||environment.yml
+            workshop||
+          workflow: push
