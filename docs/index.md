@@ -105,17 +105,19 @@ If you have Anaconda or Mambaforge installed, you can launch a locally hosted Py
 {{ page.zipball_button }}&nbsp;
 {{ page.tarball_button }}
 
-1. Click on the [**Download Zip**][zipball-link] or [**Download TarGz**][tarball-link] button above to download an archive containing the workshop materials.
-2. Extract the contents of the downloaded archive to a suitable location and rename the extracted directory if desired.
-3. Launch **Terminal** (*macOS/Linux*) or the **Mambaforge Prompt** (*Windows*).
+1. Launch **Terminal** (*macOS/Linux*) or the **Mambaforge Prompt** (*Windows*).
     - **Windows**: *Start > Mambaforge > Mambaforge Prompt*
     - **macOS**: *Applications > Utilities > Terminal*
-4. Navigate to the directory containing the extracted workshop materials from within the console.
-5. Create a new environment for the workshop: `mamba env create --file environment.yml`
-6. Activate the workshop environment: `conda activate {{ site.env }}`
-7. Open the workshop notebook in JupyterLab: `jupyter lab {{ site.file }}`
-8. JupyterLab will launch in a web browser. (A new tab will be generated if a browser is already open.)
-9. If the workshop notebook does not automatically open, *double-click* on `{{ site.file }}` in the file browser on the left.
+2. Run the following commands by typing or pasting the command into the console and then pressing <kbd>Enter</kbd> or <kbd>Return</kbd>.
+    - Download and extract the workshop materials:\
+      `curl -Lo - https://github.com/tuftsdatalab/{{ site.repo }}/archive/workshop.tar.gz | tar -xzf -`
+    - Navigate into the extracted directory: `cd {{ site.repo }}-workshop`
+    - Create a new environment for the workshop: `mamba env create -f environment.yml`
+    - Activate the workshop environment: `conda activate {{ site.env }}`
+    - Open the workshop notebook in JupyterLab: `jupyter lab {{ site.file }}`
+3. JupyterLab will launch in a web browser. (A new tab will be generated if a browser is already open.)
+4. If the workshop notebook does not automatically open, *double-click* on `{{ site.file }}` in the file browser on the left.
+5. **Do not close the console!** Closing the console will also terminate JupyterLab. Leave the console running in the background.
 
 
 [binder-link]: https://mybinder.org/v2/gh/tuftsdatalab/{{ site.repo }}/binder?urlpath=lab/tree/{{ site.file }}
