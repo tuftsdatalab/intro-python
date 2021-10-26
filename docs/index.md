@@ -50,12 +50,13 @@ This is a hands-on workshop designed to introduce you to the wonderful world of 
 
 [![Launch Python Interpreter](../badges/python.svg)]{{ page.console_popup }}
 
-Click on the [**Launch Python Interpreter**]{{ page.console_popup }} button above to launch an online version of the command-line based interactive Python interpreter. If that does not work in your browser, use the online interpreter available on the official Python website: [python.org/shell](https://www.python.org/shell/){:target="_blank"}
+Click on the [**Launch Python Interpreter**]{{ page.console_popup }} button above to launch an online version of the command-line based Python interpreter.\
+If that does not work in your browser, use the online interpreter available on the official Python website: [python.org/shell](https://www.python.org/shell/){:target="_blank"}
 
 If you have Anaconda or Mambaforge installed, you can launch a locally hosted Python interpreter as follows:
 
-1. Launch **Terminal** (*macOS/Linux*) or the **Anaconda/Mambaforge Prompt** (*Windows*).
-    - **Windows (Anaconda)**: *Start > Anaconda3 > Anaconda Prompt*
+1. Launch **Terminal** (*macOS/Linux*) or a **Conda-Enabled Prompt** (*Windows*).
+    - **Windows (Anaconda)**: *Start > Anaconda3 > Anaconda PowerShell Prompt*
     - **Windows (Mambaforge)**: *Start > Mambaforge > Mambaforge Prompt*
     - **macOS**: *Applications > Utilities > Terminal*
 2. Type `python` and press <kbd>Enter</kbd> or <kbd>Return</kbd>.
