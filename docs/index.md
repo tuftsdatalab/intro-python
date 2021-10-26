@@ -43,7 +43,18 @@ Contact: <datalab-support@elist.tufts.edu>
 ---
 ## Workshop Overview {#overview}
 
-This is a hands-on workshop designed to introduce you to the wonderful world of programming and get you acquainted with the popular and easy-to-use programming language Python.
+This is a hands-on workshop designed to introduce you to the wonderful world of programming and get you acquainted with the popular and easy-to-use programming language Python. The [first part](#part-1) of the workshop involves hands-on exercises using a command-line based Python interpreter and is intended to be completed at an instructor-guided session. The [second part](#part-2) of the workshop is composed of an interactive Python notebook with built-in exercises and solutions. The notebook is suitable for self-guided study and covers the following:
+
+- Basic **arithmetic** and **string manipulation**
+- Working with **lists**, **dictionaries**, and **tuples**
+- What are **functions** and how to write your own
+- Using **loops** and **list comprehensions**
+- Control flow with **conditional** statements
+- The difference between **copies** and **views**
+- Reading technical **documentation**
+- **Importing** and using Python **libraries**
+
+The notebook is designed to be run in a pre-configured cloud-computing environment either via [Binder](#binder) or [Google Colab](#colab) and does not require the installation of any software. Use of [Binder](#binder) is recommended as it provides a JupyterLab interface and allows for an experience similar to using a local installation. It is also possible to run the workshop notebook using a local [Anaconda](#anaconda) or [Mambaforge](#mambaforge) installation. Instructions on how to install Anaconda or Mambaforge are available here: [go.tufts.edu/installingPython](https://go.tufts.edu/installingPython)
 
 ---
 ## Part 1/2: Working with Python on the Command Line {#part-1}
@@ -105,7 +116,7 @@ If you have Anaconda or Mambaforge installed, you can launch a locally hosted Py
 {{ page.zipball_button }}&nbsp;
 {{ page.tarball_button }}
 
-1. Launch **Terminal** (*macOS/Linux*) or the **Mambaforge Prompt** (*Windows*).
+1. Launch **Terminal** (*macOS/Linux*) or **Mambaforge Prompt** (*Windows*).
     - **Windows**: *Start > Mambaforge > Mambaforge Prompt*
     - **macOS**: *Applications > Utilities > Terminal*
 2. Run the following commands by typing or pasting the command into the console and then pressing <kbd>Enter</kbd> or <kbd>Return</kbd>.
