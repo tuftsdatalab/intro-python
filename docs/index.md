@@ -121,6 +121,6 @@ If you have Anaconda or Mambaforge installed, you can launch a locally hosted Py
 [colab-link]: https://colab.research.google.com/github/tuftsdatalab/{{ site.repo }}/blob/workshop/{{ site.file }}
 [notebook-link]: https://cdn.jsdelivr.net/gh/tuftsdatalab/{{ site.repo }}@workshop/{{ site.file }}
 [repo-link]: https://github.com/tuftsdatalab/{{ site.repo }}
-[zipball-link]: https://github.com/tuftsdatalab/{{ site.repo }}/zipball/workshop
-[tarball-link]: https://github.com/tuftsdatalab/{{ site.repo }}/tarball/workshop
+[zipball-link]: https://github.com/tuftsdatalab/{{ site.repo }}/archive/workshop.zip
+[tarball-link]: https://github.com/tuftsdatalab/{{ site.repo }}/archive/workshop.tar.gz
 [last-updated-badge]: https://img.shields.io/github/last-commit/tuftsdatalab/{{ site.repo }}?label=last%20updated
