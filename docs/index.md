@@ -79,8 +79,8 @@ If you have Anaconda or Mambaforge installed, you can launch a locally hosted Py
 {{ page.colab_button }}
 
 1. Click on the [**Open in Colab**]{{ page.colab_popup }} button above. The Google Colab interface will open in a new tab.
-2. If you are not already signed into your Google account, click on ***Sign In*** in the upper-right corner and sign in with your Google credentials. **You must be signed in with a Google account to be able to run notebooks in Google Colab.**
-3. **Optional:** If you want to retain any changes you make to this notebook, you should save a copy of the notebook to your Google Drive. This can be done by clicking the ***Copy to Drive*** button or selecting ***File > Save a copy in Drive***. The notebook will be saved to the `Colab Notebooks` folder in your Google Drive. Once the saved copy pops up, close the original file and use the copy for the rest of the workshop. Feel free to rename the copy if desired. Any changes you make to your personal copy will automatically be saved.
+2. If you are not already signed into your Google account, click on ***Sign In*** in the upper-right and sign in with your Google credentials. **You must be signed in with a Google account to be able to run notebooks in Google Colab.**
+3. **Optional:** To retain any changes you make to this notebook, save a copy of the notebook to your Google Drive by clicking the ***Copy to Drive*** button or selecting ***File > Save a copy in Drive***. This will save the notebook to the `Colab Notebooks` directory in your Google Drive. Once the saved copy pops up, close the original notebook and use the copy going forward. Feel free to rename the copy if desired. Any changes made to your personal copy will be automatically saved.
 
 *You might also see a message warning you that this notebook was not authored by Google and hence might contain malicious code. You can trust Data Lab notebooks, so click __Run Anyway__. But when running other third-party notebooks, you should review the code beforehand.*
 
