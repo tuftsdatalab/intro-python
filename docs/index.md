@@ -35,8 +35,8 @@ Contact: <datalab-support@elist.tufts.edu>
 - [Workshop Overview](#overview)
 - [Part 1/2: Working with Python on the Command Line](#part-1)
 - [Part 2/2: Using an Interactive Python Notebook Environment](#part-2)
-    - [Using Binder (virtual JupyterLab) to Run the Notebook (Recommended)](#binder)
-    - [Using Google Colab to Run the Notebook](#colab)
+    - [Running the Notebook using a Virtual JupyterLab Instance (Recommended)](#binder)
+    - [Running the Notebook using Google Colab](#colab)
     - [Running the Notebook using a Local Anaconda Installation](#anaconda)
     - [Running the Notebook using a Local Mambaforge Installation](#mambaforge)
 
@@ -64,7 +64,7 @@ If you have Anaconda or Mambaforge installed, you can launch a locally hosted Py
 ---
 ## Part 2/2: Using an Interactive Python Notebook Environment {#part-2}
 
-### Using Binder (virtual JupyterLab) to Run the Notebook (Recommended) {#binder}
+### Running the Notebook using a Virtual JupyterLab Instance (Recommended) {#binder}
 
 {{ page.binder_button }}
 
@@ -74,7 +74,7 @@ If you have Anaconda or Mambaforge installed, you can launch a locally hosted Py
 4. If the workshop notebook does not automatically open, *double-click* on `{{ site.file }}` in the file browser on the left.
 
 ---
-### Using Google Colab to Run the Notebook {#colab}
+### Running the Notebook using Google Colab {#colab}
 
 {{ page.colab_button }}
 
