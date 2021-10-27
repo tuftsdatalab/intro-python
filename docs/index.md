@@ -7,8 +7,7 @@ notebook_button: "[![Download Notebook](../badges/jupyter.svg)][notebook-link]"
 github_button: "[![View on Github](../badges/github.svg)][repo-link]"
 zipball_button: "[![Download Zip](../badges/zip.svg)][zipball-link]"
 tarball_button: "[![Download TarGz](../badges/tgz.svg)][tarball-link]"
-console_popup: >-
-    (https://console.python.org/python-dot-org-console/){:target="_blank" onClick="window.open('https://console.python.org/python-dot-org-console/','_blank','height=300,width=745'); return false;"}
+terminal_popup: "[terminal-link]{:target='_blank'}"
 ---
 
 {{ page.binder_button }}&nbsp;
@@ -34,6 +33,8 @@ Contact: <datalab-support@elist.tufts.edu>
 
 - [Workshop Overview](#overview)
 - [Part 1/2: Working with Python on the Command Line](#part-1)
+    - [Launching a Virtual Terminal Instance (Recommended)](#virtual-terminal)
+    - [Launching a Conda-Enabled Console using a Local Anaconda or Mambaforge Installation](#local-terminal)
 - [Part 2/2: Using an Interactive Python Notebook Environment](#part-2)
     - [Running the Notebook using a Virtual JupyterLab Instance (Recommended)](#binder)
     - [Running the Notebook using Google Colab](#colab)
@@ -59,18 +60,24 @@ The notebook is designed to be run in a pre-configured cloud-computing environme
 ---
 ## Part 1/2: Working with Python on the Command Line {#part-1}
 
-[![Launch Python Interpreter](../badges/python.svg)]{{ page.console_popup }}
+### Launching a Virtual Terminal Instance (Recommended) {#virtual-terminal}
 
-Click on the [**Launch Python Interpreter**]{{ page.console_popup }} button above to launch an online version of the command-line based Python interpreter.\
-If that does not work in your browser, use the online interpreter available on the official Python website: [python.org/shell](https://www.python.org/shell/){:target="_blank"}
+[![Launch Terminal](../badges/terminal.svg)]{{ page.terminal_popup }}
 
-If you have Anaconda or Mambaforge installed, you can launch a locally hosted Python interpreter as follows:
+1. Click on the [**Launch Terminal**] button above.
+2. A Binder instance will launch in a new tab with the message *Starting Repository*.
+3. Wait patiently and do not close the Binder tab. After a few minutes, a Terminal instance will launch.
+4. To launch a Python interpreter, type `python` and press <kbd>Enter</kbd> or <kbd>Return</kbd>.
 
-1. Launch **Terminal** (*macOS/Linux*) or a **Conda-Enabled Prompt** (*Windows*).
+---
+### Launching a Conda-Enabled Console using a Local Anaconda or Mambaforge Installation {#local-terminal}
+
+1. If you have Anaconda or Mambaforge installed, you can launch a Conda-Enabled Terminal or Prompt as follows:
     - **Windows (Anaconda)**: *Start > Anaconda3 > Anaconda PowerShell Prompt*
     - **Windows (Mambaforge)**: *Start > Mambaforge > Mambaforge Prompt*
     - **macOS**: *Applications > Utilities > Terminal*
-2. Type `python` and press <kbd>Enter</kbd> or <kbd>Return</kbd>.
+2. Ensure last line of text in the Terminal or Prompt begins `(base)`. If this is not the case, use a [*Virtual Terminal*](#virtual-terminal) instead.
+3. To launch a Python interpreter, type `python` and press <kbd>Enter</kbd> or <kbd>Return</kbd>.
 
 ---
 ## Part 2/2: Using an Interactive Python Notebook Environment {#part-2}
@@ -138,3 +145,4 @@ If you have Anaconda or Mambaforge installed, you can launch a locally hosted Py
 [zipball-link]: https://github.com/tuftsdatalab/{{ site.repo }}/archive/workshop.zip
 [tarball-link]: https://github.com/tuftsdatalab/{{ site.repo }}/archive/workshop.tar.gz
 [last-updated-badge]: https://img.shields.io/github/last-commit/tuftsdatalab/{{ site.repo }}?label=last%20updated
+[terminal-link]: https://mybinder.org/v2/gh/tuftsdatalab/terminal/binder?urlpath=terminals/1
