@@ -64,9 +64,9 @@ The notebook is designed to be run in a pre-configured cloud-computing environme
 
 [![Launch Terminal](../badges/terminal.svg)]{{ page.terminal_popup }}
 
-1. Click on the [**Launch Terminal**] button above.
+1. Click on the [**Launch Terminal**]{{ page.terminal_popup }} button above.
 2. A Binder instance will launch in a new tab with the message *Starting Repository*.
-3. Wait patiently and do not close the Binder tab. After a few minutes, a Terminal instance will launch.
+3. Wait patiently and do not close the Binder tab. After a few minutes, a **Terminal** instance will launch.
 4. To launch a Python interpreter, type `python` and press <kbd>Enter</kbd> or <kbd>Return</kbd>.
 
 ---
@@ -76,7 +76,8 @@ The notebook is designed to be run in a pre-configured cloud-computing environme
     - **Windows (Anaconda)**: *Start > Anaconda3 > Anaconda PowerShell Prompt*
     - **Windows (Mambaforge)**: *Start > Mambaforge > Mambaforge Prompt*
     - **macOS**: *Applications > Utilities > Terminal*
-2. Ensure last line of text in the Terminal or Prompt begins `(base)`. If this is not the case, use a [*Virtual Terminal*](#virtual-terminal) instead.
+2. Ensure the last line of text in the Terminal or Prompt begins with `(base)`.
+    - *If this is not the case, use a [__Virtual Terminal__](#virtual-terminal) instead.*
 3. To launch a Python interpreter, type `python` and press <kbd>Enter</kbd> or <kbd>Return</kbd>.
 
 ---
