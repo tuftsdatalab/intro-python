@@ -78,7 +78,7 @@ The notebook is designed to be run in a pre-configured cloud-computing environme
     - **Windows (Mambaforge)**: *Start > Mambaforge > Mambaforge Prompt*
     - **macOS**: *Applications > Utilities > Terminal*
 2. Ensure the last line of text in the Terminal or Prompt begins with `(base)`.
-    - *If this is not the case, use a [__Virtual Terminal__](#virtual-terminal) instead.*
+    - *If this is not the case, use a [__Virtual Terminal__]{{ page.terminal_popup }} instead.*
 3. To launch a Python interpreter, type `python` and press <kbd>Enter</kbd> or <kbd>Return</kbd>.
 
 ---
