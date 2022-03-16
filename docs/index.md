@@ -140,7 +140,7 @@ The notebook is designed to be run in a pre-configured cloud-computing environme
 5. **Do not close the console!** Closing the console will also terminate JupyterLab. Leave the console running in the background.
 
 ---
-## Additional Resources
+## Additional Resources {resources}
 
 - Kaggle Python Course: <https://www.kaggle.com/learn/python>
 - W3Schools Python Tutorial: <https://www.w3schools.com/python>
