@@ -1,2 +1,2 @@
 #!/bin/bash
-jupyter lab build --dev-build=False --minimize=False
+jupyter lab build --dev-build=False --minimize=True

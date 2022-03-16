@@ -40,6 +40,7 @@ Contact: <datalab-support@elist.tufts.edu>
     - [Running the Notebook using Google Colab](#colab)
     - [Running the Notebook using a Local Anaconda Installation](#anaconda)
     - [Running the Notebook using a Local Mambaforge Installation](#mambaforge)
+- [Additional Resources](#resources)
 
 ---
 ## Workshop Overview {#overview}
@@ -137,6 +138,18 @@ The notebook is designed to be run in a pre-configured cloud-computing environme
 3. JupyterLab will launch in a web browser. (A new tab will be generated if a browser is already open.)
 4. If the workshop notebook does not automatically open, *double-click* on `{{ site.file }}` in the file browser on the left.
 5. **Do not close the console!** Closing the console will also terminate JupyterLab. Leave the console running in the background.
+
+---
+## Additional Resources
+
+- Kaggle Python Course: <https://www.kaggle.com/learn/python>
+- W3Schools Python Tutorial: <https://www.w3schools.com/python>
+- Google's Python Class: <https://developers.google.com/edu/python>
+- Official Python Tutorial: <https://docs.python.org/3/tutorial>
+
+Software Carpentry Lessons
+- Programming with Python: <https://swcarpentry.github.io/python-novice-inflammation>
+- Plotting and Programming in Python: <http://swcarpentry.github.io/python-novice-gapminder>
 
 
 [binder-link]: https://mybinder.org/v2/gh/tuftsdatalab/{{ site.repo }}/binder?urlpath=lab/tree/{{ site.file }}
