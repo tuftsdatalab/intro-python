@@ -24,6 +24,7 @@ Written by {{ site.author }}
 [![datalab.tufts.edu](../badges/datalab.svg)](https://sites.tufts.edu/datalab)&nbsp;
 [![@TuftsDataLab](../badges/twitter.svg)](https://twitter.com/intent/follow?screen_name=tuftsdatalab)
 
+Resources: [go.tufts.edu/{{ site.resources }}](https://go.tufts.edu/{{ site.resources }})\
 Slides: [tufts.box.com/v/{{ site.slides }}](https://tufts.box.com/v/{{ site.slides }})\
 Live offerings: [go.tufts.edu/workshops](https://go.tufts.edu/workshops)\
 Contact: <datalab-support@elist.tufts.edu>
@@ -38,6 +39,7 @@ Contact: <datalab-support@elist.tufts.edu>
 - [Part 2/2: Using an Interactive Python Notebook Environment](#part-2)
     - [Running the Notebook using a Virtual JupyterLab Instance (Recommended)](#binder)
     - [Running the Notebook using Google Colab](#colab)
+    - [Running the Notebook using a Local JupyterLab Desktop Installation](#desktop)
     - [Running the Notebook using a Local Anaconda Installation](#anaconda)
     - [Running the Notebook using a Local Mambaforge Installation](#mambaforge)
 - [Additional Resources](#resources)
@@ -56,7 +58,7 @@ This is a hands-on workshop designed to introduce you to the wonderful world of 
 - Reading technical **documentation**
 - **Importing** and using Python **libraries**
 
-The notebook is designed to be run in a pre-configured cloud-computing environment either via [Binder](#binder) or [Google Colab](#colab) and does not require the installation of any software. Use of [Binder](#binder) is recommended as it provides a JupyterLab interface and allows for an experience similar to using a local installation. It is also possible to run the workshop notebook using a local [Anaconda](#anaconda) or [Mambaforge](#mambaforge) installation. Instructions on how to install Anaconda or Mambaforge are available here: [go.tufts.edu/installingPython](https://go.tufts.edu/installingPython)
+The notebook is designed to be run in a pre-configured cloud-computing environment either via [Binder](#binder) or [Google Colab](#colab) and does not require the installation of any software. Use of [Binder](#binder) is recommended as it provides a JupyterLab interface and allows for an experience similar to using a local installation. It is also possible to run the workshop notebook using a local installation of [JupyterLab Desktop](#desktop) or [Anaconda](#anaconda)/[Mambaforge](#mambaforge). Instructions on how to install a suitable Python environment are available here: [go.tufts.edu/installingPython](https://go.tufts.edu/installingPython)
 
 ---
 ## Part 1/2: Working with Python on the Command Line {#part-1}
@@ -74,7 +76,7 @@ The notebook is designed to be run in a pre-configured cloud-computing environme
 ### Launching a Conda-Enabled Console using a Local Anaconda or Mambaforge Installation {#local-terminal}
 
 1. If you have Anaconda or Mambaforge installed, you can launch a Conda-Enabled Terminal or Prompt as follows:
-    - **Windows (Anaconda)**: *Start > Anaconda3 > Anaconda PowerShell Prompt*
+    - **Windows (Anaconda)**: *Start > Anaconda3 > Anaconda Prompt*
     - **Windows (Mambaforge)**: *Start > Mambaforge > Mambaforge Prompt*
     - **macOS**: *Applications > Utilities > Terminal*
 2. Ensure the last line of text in the Terminal or Prompt begins with `(base)`.
@@ -103,6 +105,16 @@ The notebook is designed to be run in a pre-configured cloud-computing environme
 3. **Optional:** To retain any changes you make to this notebook, save a copy of the notebook to your Google Drive by clicking the ***Copy to Drive*** button or selecting ***File > Save a copy in Drive***. This will save the notebook to the `Colab Notebooks` directory in your Google Drive. Once the saved copy pops up, close the original notebook and use the copy going forward. Feel free to rename the copy if desired. Any changes made to your personal copy will be automatically saved.
 
 *You might also see a message warning you that this notebook was not authored by Google and hence might contain malicious code. You can trust Data Lab notebooks, so click __Run Anyway__. But when running other third-party notebooks, you should review the code beforehand.*
+
+---
+### Running the Notebook using a Local JupyterLab Desktop Installation {#desktop}
+
+{{ page.notebook_button }}
+
+1. Click on the [**Download Notebook**][notebook-link] button above to download the workshop notebook.
+2. Create a designated directory for this workshop and move the downloaded `{{ site.file }}` notebook there.
+3. Open the directory containing `{{ site.file }}` using File Explorer (*Windows*) or Finder (*macOS*).
+4. *Right-click* on the downloaded `{{ site.file }}` file and select **Open With > JupyterLab Desktop** to launch the notebook.
 
 ---
 ### Running the Notebook using a Local Anaconda Installation {#anaconda}

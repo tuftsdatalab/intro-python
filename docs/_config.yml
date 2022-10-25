@@ -3,5 +3,6 @@ description: A Tufts University Data Lab Workshop
 repo: intro-python
 author: Uku-Kaspar Uustalu
 slides: intro-python
+resources: python
 file: intro-python.ipynb
 env: intro-python
