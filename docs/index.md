@@ -141,12 +141,26 @@ The notebook is designed to be run in a pre-configured cloud-computing environme
     - **Windows**: *Start > Mambaforge > Mambaforge Prompt*
     - **macOS**: *Applications > Utilities > Terminal*
 2. Run the following commands by typing or pasting the command into the console and then pressing <kbd>Enter</kbd> or <kbd>Return</kbd>.
-    - Download and extract the workshop materials:\
-      `curl -Lo - https://github.com/tuftsdatalab/{{ site.repo }}/archive/workshop.tar.gz | tar -xzf -`
-    - Navigate into the extracted directory: `cd {{ site.repo }}-workshop`
-    - Create a new environment for the workshop: `mamba env create -f environment.yml`
-    - Activate the workshop environment: `conda activate {{ site.env }}`
-    - Open the workshop notebook in JupyterLab: `jupyter lab {{ site.file }}`
+    - Download and extract the workshop materials:
+      ```
+      curl -Lo - https://github.com/tuftsdatalab/{{ site.repo }}/archive/workshop.tar.gz | tar -xzf -
+      ```
+    - Navigate into the extracted directory:
+      ```
+      cd {{ site.repo }}-workshop
+      ```
+    - Create a new environment for the workshop:
+      ```
+      mamba env create -f environment.yml
+      ```
+    - Activate the workshop environment:
+      ```
+      conda activate {{ site.env }}
+      ```
+    - Open the workshop notebook in JupyterLab:
+      ```
+      jupyter lab {{ site.file }}
+      ```
 3. JupyterLab will launch in a web browser. (A new tab will be generated if a browser is already open.)
 4. If the workshop notebook does not automatically open, *double-click* on `{{ site.file }}` in the file browser on the left.
 5. **Do not close the console!** Closing the console will also terminate JupyterLab. Leave the console running in the background.
