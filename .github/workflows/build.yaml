@@ -1,0 +1,36 @@
+name: mirror
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - run: |
+          sed -i "s/GH_ACTIONS_DATE/$(date +'%Y-%m-%d')/g" files/*.ipynb
+      - uses: mamba-org/setup-micromamba@v2
+        with:
+          environment-file: env/build.yaml
+      - uses: tuftsrt/get-pages-url@v1
+      - run: |
+          jupyter lite build \
+            --base-url=$(basename ${{ github.repository }})/ \
+            --XeusAddon.environment_file=env/lite.yaml
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: _output
+  deploy:
+    needs: build
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/deploy-pages@v4
