@@ -1,0 +1,11 @@
+name: xeus-lite
+channels:
+  - conda-forge
+dependencies:
+  - jupyter_server
+  - jupyterlab_server
+  - jupyterlite-core
+  - jupyterlite-xeus
+  - micromamba
+  - python
+  - python-libarchive-c
