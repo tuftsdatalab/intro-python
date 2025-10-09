@@ -1,1 +1,3 @@
+_output/
 .ipynb_checkpoints
+.jupyterlite.doit.db
