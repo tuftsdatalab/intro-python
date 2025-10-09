@@ -1,4 +1,4 @@
-name: mirror
+name: build
 
 on:
   push:
@@ -20,6 +20,7 @@ jobs:
           jupyter lite build \
             --base-url=$(basename ${{ github.repository }})/ \
             --XeusAddon.environment_file=env/lite.yaml
+        shell: bash -l {0}
       - uses: actions/upload-pages-artifact@v4
         with:
           path: _output
