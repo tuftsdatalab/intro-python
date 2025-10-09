@@ -15,7 +15,6 @@ jobs:
       - uses: mamba-org/setup-micromamba@v2
         with:
           environment-file: env/build.yaml
-      - uses: tuftsrt/get-pages-url@v1
       - run: |
           jupyter lite build \
             --base-url=$(basename ${{ github.repository }})/ \
