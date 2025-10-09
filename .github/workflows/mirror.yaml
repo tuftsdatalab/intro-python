@@ -1,0 +1,29 @@
+name: mirror
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  get-date:
+    runs-on: ubuntu-latest
+    outputs:
+      date: ${{ steps.date.outputs.date }}
+    steps:
+      - id: date
+        run: |
+          echo "date=$(date +'%Y-%m-%d')" >> $GITHUB_OUTPUT
+  mirror-tutorial:
+    runs-on: ubuntu-latest
+    needs: get-date
+    steps:
+      - uses: tuftsrt/copy-to-branch@v1
+        with:
+          destination-branch: tutorial
+          clear-destination: "true"
+          copy: |
+            env/main.yaml|environment.yaml
+            files/|
+          replace: |
+            GH_ACTIONS_DATE|${{ needs.get-date.outputs.date }}|*.ipynb
